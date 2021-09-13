@@ -46,15 +46,22 @@ app.get('/weather', (req, res) => {
             }, []); 
             res.status(200).send(foreCast);
         } else {
-            res.status(400).send('We don\'t have weather info fot this input, try Amman, Seattle, or Paris, OR check you city coordinations');
+            let unavailableCityError = {
+                message: 'No weather data for this city. Try Amman, Seattle, or Paris',
+                status: 400,
+            };
+            console.log(unavailableCityError);
+            res.status(400).send(unavailableCityError);
         }
     } else {
-        res.status(400).send('You didn\'t use the correct query parameters')
+        let noQsError = {
+            message: 'Incorrect query parameters',
+            status: 400,
+        };
+        console.log(noQsError);
+        res.status(400).send(noQsError);
     }
     
 })
-
-
-// res.status(400).send('');
 
 
