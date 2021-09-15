@@ -11,13 +11,11 @@ This application is an API that provides info for cities, just as:
 
 ## Getting Started
 
-Create a GET request using the API's URIs: 
+Create a GET request for any those API's and provide the requested correct query parameters:
 
-* 3 days weather info API for Amman, Paris, and Seattle: `http://localhost:8000/old_weather?lat=${LAT}&lon=${LON}&searched_city=${YOUR CITY NAME}`
-
-* 16 days weather info API: `http://localhost:8000/weather?lat=${LAT}&lon=${LON}`
-
-* Movies/city API: `http://localhost:8000/movies?city_name=${YOUR CITY NAME}`
+* Simple 3 days weather info API for Amman, Paris, and Seattle
+* 16 days weather info API
+* Movies/city API
 
 ## Architecture
 
@@ -33,6 +31,8 @@ Create a GET request using the API's URIs:
 13-09-2021 07:00pm - Now, this is a server that works as an API to show weather info for certain locations.
 14-09-2021 05:00pm - Now, this server is connected to weatherbit API to show weather info for 16 days for certain locations.
 14-09-2021 07:35pm - Now, this server is connected to movedB API to show movies for certain locations.
+14-09-2021 10:30pm - Now, this server is live on Heroku.
+15-09-2021 03:12pm - Now, this server code is written to accommodate the MC architecture.
 
 ## Credit and Collaborations
 
@@ -59,3 +59,9 @@ Start time: 6 pm
 Finish time: 7:34 pm
 Actual time needed to complete: 1:30 hour
 
+### Feature .4 - Refactored the code to accommodate the MC architecture
+
+Estimate of time needed to complete: 1 hour
+Start time: 2 pm
+Finish time: 3 pm
+Actual time needed to complete: 1 hour
