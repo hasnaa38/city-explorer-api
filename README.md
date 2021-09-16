@@ -1,6 +1,6 @@
 # city-explorer-api
 
-Author: Hasnaa Version: 1.0.0
+Author: Hasnaa Version: 1.0.5
 
 ## Overview
 
@@ -33,6 +33,7 @@ Create a GET request for any those API's and provide the requested correct query
 14-09-2021 07:35pm - Now, this server is connected to movedB API to show movies for certain locations.
 14-09-2021 10:30pm - Now, this server is live on Heroku.
 15-09-2021 03:12pm - Now, this server code is written to accommodate the MC architecture.
+16-09-2021 10:10pm - Now, the API can cache external API data in server storage and reset it every 5 minutes.
 
 ## Credit and Collaborations
 
@@ -65,3 +66,10 @@ Estimate of time needed to complete: 1 hour
 Start time: 2 pm
 Finish time: 3 pm
 Actual time needed to complete: 1 hour
+
+### Feature .4 - Cache external API data in server storage
+
+Estimate of time needed to complete: 3 hours
+Start time: 8:00 pm
+Finish time: 10:10 pm
+Actual time needed to complete: 2 hours

@@ -16,7 +16,7 @@ let simpleWeatherController = require('./controllers/SimpleWeather.controller');
 //integrating port to app
 let PORT = process.env.PORT;
 app.listen(PORT, () => {
-    console.log(`listening to port ${PORT}`);
+    console.log(`listening on port ${PORT}`);
 });
 
 // Simple weather API - simple_weather?lat=${LAT}&lon=${LON}&searched_city=${YOUR CITY NAME}
